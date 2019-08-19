@@ -14,6 +14,6 @@ before_install:
 
 
 script:
-  -  src/LiteOS/Huawei_LiteOS/targets/Cloud_STM32F429IGTx_FIRE/GCC
+  -  cd src/LiteOS/Huawei_LiteOS/targets/Cloud_STM32F429IGTx_FIRE/GCC
   -  make
 
